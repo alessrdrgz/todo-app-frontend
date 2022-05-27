@@ -20,9 +20,16 @@
     "ignorePatterns": "*.js"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.20.6",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.3.4",
+    "i18next": "^21.8.4",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-i18next": "^11.16.9",
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
