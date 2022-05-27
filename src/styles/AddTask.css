@@ -1,0 +1,22 @@
+.add-task-container {
+  width: 75%;
+  padding-top: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.add-task-form {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 13px -7px #000000;
+  background-color: white;
+}
+
+.add-task-form button {
+  margin: 10px;
+}
+
+.add-task-form input,
+label {
+  margin-top: 25px;
+}
