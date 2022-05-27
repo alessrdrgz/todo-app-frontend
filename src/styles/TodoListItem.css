@@ -1,0 +1,79 @@
+li.ant-list-item {
+  color: black;
+  font-weight: 500;
+}
+
+li.ant-list-item > div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+li.ant-list-item svg {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+li.ant-list-item div .check-icon,
+.uncheck-icon {
+  margin-right: 16px;
+}
+
+.date {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.check-icon,
+.uncheck-icon {
+  background-color: white;
+  border-radius: 999px;
+  padding: 5px;
+}
+
+.uncheck-icon {
+  background-color: #a0d911;
+}
+
+.uncheck-icon:hover {
+  background-color: white;
+}
+
+.check-icon:hover {
+  background-color: #a0d911;
+  border: 0px;
+}
+
+li.ant-list-item:nth-child(odd) > div {
+  background-color: #91d5ff;
+}
+
+li.ant-list-item:nth-child(even) > div {
+  background-color: #69c0ff;
+}
+
+.anchor-container {
+  position: relative;
+}
+
+.todo-open-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.delete-icon {
+  background-color: white;
+  border-radius: 999px;
+  padding: 5px;
+}
+
+.delete-icon:hover {
+  color: white;
+  background-color: red;
+}
