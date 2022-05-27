@@ -1,0 +1,63 @@
+.overlay {
+  z-index: 1;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  will-change: opacity;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.overlay a {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  left: 50%;
+
+  transform: translateX(-50%);
+}
+
+.todo-content-container.open {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.todo-content {
+  margin: auto;
+  height: auto;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+  width: 80vw;
+}
+
+#edit-task {
+  padding: 10px;
+}
+
+#edit-task button {
+  margin: 10px;
+}
+
+#edit-task input {
+  margin-top: 25px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.completed-check {
+  text-align: left;
+}
